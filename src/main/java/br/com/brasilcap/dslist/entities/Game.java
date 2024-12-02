@@ -28,7 +28,7 @@ public class Game {
 	private String imgUrl;
 
 	@Column(columnDefinition = "VARCHAR(2000)")
-private String shortDescription;
+	private String shortDescription;
 
 	@Column(columnDefinition = "TEXT")
 	private String longDescription;
